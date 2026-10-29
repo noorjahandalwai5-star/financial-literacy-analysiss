@@ -22,9 +22,9 @@ Write-Output "5. Renaming default branch to main..."
 Write-Output "6. Configuring remote origin..."
 $existingRemote = & $gitExe remote
 if ($existingRemote -contains "origin") {
-    & $gitExe remote set-url origin https://github.com/noorjahandalwai5-star/financial-literacy-analysis.git
+    & $gitExe remote set-url origin https://github.com/noorjahandalwai5-star/financial-literacy-analysiss.git
 } else {
-    & $gitExe remote add origin https://github.com/noorjahandalwai5-star/financial-literacy-analysis.git
+    & $gitExe remote add origin https://github.com/noorjahandalwai5-star/financial-literacy-analysiss.git
 }
 
 Write-Output "7. Repository local setup complete!"
